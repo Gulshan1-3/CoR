@@ -88,10 +88,7 @@ fn until_char_test(){
 //string -> &str cheap n uses asRef  but &str -> String -- expensive and uses somewhat of a clone(memcopy)is harder only way u can do it is doing heap allocation and copying all the chars
 
 
-#[test]
-fn until_char_test() {
-    assert_eq!(until_char("hello world", 'o'), "hell");
-}
+
 
 #[test]
 fn it_works() {
